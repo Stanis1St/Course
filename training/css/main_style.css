@@ -1,0 +1,22 @@
+.container1{
+    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+       align-items: flex-start;
+
+}
+.sidebar{
+ 
+  display: inline-flex;
+    display:inline-flex;
+    flex-direction: column;
+    padding: 1em 1em 1em 1em;
+    font-size: 12px;
+     font-family: "Roboto";
+    color: rgb(75, 115, 181);
+    font-weight: bold;
+    text-transform: uppercase;   
+}
+.airplane_img{
+}
