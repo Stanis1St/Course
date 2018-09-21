@@ -1,0 +1,44 @@
+
+body{
+    font-family:"Roboto" ;
+    margin: 0px;
+    padding: 0px;
+   
+}
+header{
+    font-family:"Roboto";
+    display:-webkit-flex; 
+    height: 100%;
+    flex-direction: row;
+    background-color: rgb(75, 115, 181);
+    height: 77px;
+    padding:0em 1em 0em 1em;
+  }
+  .empty{ 
+    flex-grow: 1;
+  }
+.header_logo{
+    align-self: center;
+    flex-grow: 0;
+}
+.tell-hours{
+    display:-webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 0; 
+}
+.tell{
+        font-size: 21px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase; 
+        align-self:  baseline;
+}
+.hours{  
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-decoration: underline;   
+        align-self:  flex-end;
+}
+ 
