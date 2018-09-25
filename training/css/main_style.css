@@ -1,59 +1,131 @@
-.container1{
+header{
     display: flex;
-    height: 300px;
     justify-content: space-between;
-    
-}
-.sidebar{
-    display: grid;
-     grid-template-rows: 50px 50px 50px;
-     grid-row-gap: 20px;
-    align-items: flex-end;
-    font-size: 12px;
-    color: rgb(75, 115, 181);
-    font-weight: bold;
-    text-transform: uppercase;  
-}
-.main{
-padding-left: 2em;
-margin-right: 0.5em;
-}
-.feed{
-  padding-left: 2em;
-  margin-right: 0.5em;
-
-}
-.team{
-  margin-right: 0.5em; 
-  padding-left: 2em;
+    height: 70px;  
 }
 a{
   text-decoration: none;
 }
-.airplane_img{
-  display:flex;
-  align-items: flex-start;
-  flex-flow: column;
+ul
+  {
+    padding-inline-start: 20px;
+
 }
-.container2{
+
+.menu {
+  list-style-type: none; /* Убираем маркеры */
+ }
+ .main-content-block-menu{
+   display:flex;
+   width: 200px;
+   height: 500px;
+ }
+ .main-content{
+  width : 100%;
+   display:flex;
+ }
+ .menu__item{
+   padding: 20px 20px 20px 20px;
+   margin: 10px 10px 10px 10px;
+ }
+ .menu__link{
+   display:flex;
+ }
+ .image_menu{
+
+ }
+ .menu-text{
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(34, 31, 31);
+  font-weight: bold;
+  text-transform: uppercase;
+ }
+ .main-content-block-information{
+   display:flex;
+  align-self:stretch;
+  flex-direction: column;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
 
-
-}
-h1{
+ }
+ .airplane_img{
+   display:flex;
+   justify-content: flex-end;
   
-}
-.flower{
-
   
-}
-.star{
+ }
+ .rate-container-body{
+   display:flex;
+   justify-content: space-evenly;
+  padding: 1em;
+ }
  
-  
-}
-.pallete{
+ .rate-luxury,.rate-premium,.rate-standart{
+   flex:1;
+  width: 30%;
+  padding: 1em;
+  margin: auto;
+  flex-direction: column;
+  align-content: center;
+  height: 100%;
+ }
+ .rate-standart__logo{
+  text-align: center;
 
- 
+ margin:auto;
+padding: 1em;  
+    border-radius: 50%;
+    background-color: rgb(75, 115, 181);
+    width: 72px;
+    height: 72px;
+     
+ }
+ .rate-premium__logo{
+  margin:auto;
+  padding: 1em;
+  border-radius: 50%;
+  background-color: rgb(75, 115, 181);
+  width: 72px;
+  height: 72px;
+ }
+ .rate-luxury__logo{
+  margin:auto;
+  padding: 1em;
+  border-radius: 50%;
+  background-color: rgb(75, 115, 181);
+  width: 72px;
+  height: 72px;
+ }
+ .rate-standart__name,.rate-premium__name,.rate-luxury__name{
+   margin:auto;
+   padding :1em;
+  font-size: 12px;
+  color: rgb(33, 33, 33);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+ }
+ .rate-premium__inform , .rate-standart__inform, .rate-luxury__inform{
+text-align: center;
+font-size: 20px;
+font-family: "Roboto";
+color: rgb(34, 31, 31);
+ }
+.rate-premium__list,.rate-standart__list,.rate-luxury__list{
+  font-size: 20px;
+  font-family: "Roboto";
+  color: rgb(34, 31, 31);
 }
+ .rate-standart__price, .rate-premium__price,.rate-luxury__price{
+  font-size: 17.76px;
+  font-family: "Roboto Regular";
+  color: rgb(32, 32, 32);
+  text-align: center;
+  
+ }
+ 
+ 
+
+
+
+

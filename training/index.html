@@ -4,7 +4,9 @@
 <head>
     <link href="/css/head_style.css" rel="stylesheet">
     <link href="/css/main_style.css" rel="stylesheet">
-    <link href="../../makets/fonts/Roboto-LightItalic_1.ttf" rel="stylesheet/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="/fonts/Roboto-Regular.ttf" rel="stylesheet/css">
+    <link href="/fonts/Roboto-Light.ttf" rel="stylesheet/css">
     <meta charset="UTF-8">
     <title>Flexbox</title>
 </head>
@@ -12,29 +14,129 @@
 <body>
     <header>
 
-        <div class="header_logo"><img src="/img/logo_header.png" alt="logo_header"></div>
-        <div class="empty"></div>
-        <div class="tell-hours">
-            <div class="tell"> 8 (800) 00-392-10 </div>
+        <img src="/img/logo.png" alt="logo" class="logo">
+        <div class="contacts">
+            <a href="88000039210" class="tell"> 8 (800) 00-392-10 </a>
             <div class="hours">График работы</div>
         </div>
     </header>
-    <div class="container1">
-        <div class="sidebar">
-            <div class="main"> <img src="/img/main_icon.png" alt="main"><a href="">главная</a> </div>
-            <div class="feed"> <img src="/img/feed_icon.png" alt="feed"><a href="">отзывы</a></div>
-            <div class="team"> <img src="/img/team_icon.png" alt="team"><a href="">экипаж</a> </div>
+    <div class="main-content">
+        <div class="main-content-block-menu">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <span class="menu__image"><img src="/img/main_icon.png" alt="главная"></span>
+                            <span class="menu__text">главная</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <span class="menu__image"><img src="/img/feed_icon.png" alt="отзывы"></span>
+                            <span class="menu__text">отзывы</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <div span="menu__image"><img src="/img/team_icon.png" alt="экипаж"></div>
+                            <span class="menu__text">экипаж</span>
+                        </a>
+                    </li>
+                </ul>
         </div>
-        <div class="airplane_img"><img src="/img/airplane.png" alt="airplane_img">
-            <h1>Тарифы</h1>
-            <div class="container2">
-                <div class="flower"><img src="/img/flower.png" alt="flower"></div>
-                <div class="flower"><img src="/img/flower.png" alt="flower"></div>
-                <div class="flower"><img src="/img/flower.png" alt="flower"></div>
+        <div class="main-content-block-information">
+            <div class="airplane_img">
+               <img src="img/airplane.png" alt="airplane">
+            </div>
+            <div class="rate-container-wraper">
+                <div class="rate-container-head">
+                    <h1>Тарифы</h1>
+                </div>
+                <div class="rate-container-body">
+                    <div class="rate-standart">
+                        <div class="rate-standart__logo"><img src="img/flower.png" alt="flower"></div>
+                        <div class="rate-standart__name">стандарт</div>
+                        <div class="rate-standart__inform">
+                            <p>Создан для вашего комфортного отдыха</p>
+                        </div>
+                        <div class="rate-standart__list">
+                            <ul>
+                                <li>Питание включено</li>
+                                <li>Багаж(5кг)</li>
+                                <li>Детское кресло</li>
+                            </ul>
+                        </div>
+                        <div class="rate-standart__price">
+                            <h2>$19</h2>
+                        </div>
+                    </div>
+                    <div class="rate-premium">
+                        <div class="rate-premium__logo"></div>
+                        <div class="rate-premium__name">премиум</div>
+                        <div class="rate-premium__inform">
+                            <p>Для любителей хороших впечатлений</p>
+                        </div>
+                        <div class="rate-premium__list">
+                            <ul>
+                                <li>Питание включено</li>
+                                <li>Багаж(5кг)</li>
+                                <li>Детское кресло</li>
+                            </ul>
+                        </div>
+                        <div class="rate-premium__price">
+                            <h2>$39</h2>
+                        </div>
+
+                    </div>
+                    <div class="rate-luxury">
+                        <div class="rate-luxury__logo"></div>
+                        <div class="rate-luxury__name">лакшери</div>
+                        <div class="rate-luxury__inform">
+                            <p>Всё самое лучшее и незабываемое</p>
+                        </div>
+                        <div class="rate-luxury__list">
+                            <ul>
+                                <li>Питание включено</li>
+                                <li>Багаж(5кг)</li>
+                                <li>Детское кресло</li>
+                            </ul>
+                        </div>
+                        <div class="rate-luxury__price">
+                            <h2>$99</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content-news">
+                <div class="main-news-title">
+                    <h2>Последние новости</h2>
+                </div>
+                <div class="news1">
+                    <div class="news_preview"></div>
+                    <div class="news__data"></div>
+                    <div class="news__name"></div>
+                    <div class ="news_content"></div>
+                </div>
+                <div class="news2">
+                        <div class="news_preview"></div>
+                        <div class="news__data"></div>
+                        <div class="news__name"></div>
+                        <div class ="news_content"></div>
+                    </div>
+                    <div class="news3">
+                            <div class="news_preview"></div>
+                            <div class="news__data"></div>
+                            <div class="news__name"></div>
+                            <div class ="news_content"></div>
+                        </div>
+                        <div class="pagination">
+
+                        </div>
             </div>
         </div>
+        
 
     </div>
+    
 
 </body>
 

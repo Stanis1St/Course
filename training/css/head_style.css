@@ -1,27 +1,24 @@
 
 body{
-    font-family:"Roboto" ;
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
    
 }
 header{
-    font-family:"Roboto";
     display:-webkit-flex; 
-    height: 100%;
-    flex-direction: row;
+    justify-content: space-between;
     background-color: rgb(75, 115, 181);
     height: 77px;
     padding:0em 1em 0em 1em;
+    width: 100;
   }
-  .empty{ 
-    flex-grow: 1;
-  }
-.header_logo{
+ 
+.logo{
     align-self: center;
     flex-grow: 0;
 }
-.tell-hours{
+.contacts{
     display:-webkit-flex;
     flex-direction: column;
     justify-content: center;
