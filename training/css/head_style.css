@@ -24,7 +24,7 @@ header{
     justify-content: center;
     flex-grow: 0; 
 }
-.tell{
+.phone{
         font-size: 21px;
         color: rgb(255, 255, 255);
         font-weight: bold;
@@ -38,4 +38,3 @@ header{
         text-decoration: underline;   
         align-self:  flex-end;
 }
- 
