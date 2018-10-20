@@ -1,0 +1,15 @@
+.items{
+    background-color:grey;
+    width: 400px;
+    height: 400px;
+}
+.item{
+    border: 4px double black; /* Параметры границы */
+    padding:20px;
+    font-size:30px;
+    color:yellow;
+}
+ .item-active {
+    background:red;
+   
+}

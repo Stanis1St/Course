@@ -1,0 +1,29 @@
+#gallery{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position :relative;
+  }
+  #gallery .imgs img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  #gallery .imgs img.showed{
+opacity: 1;
+  }
+  .imgs{
+    top: -100px;
+
+      width: 80px;
+      height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+ .buttons{
+     margin-top: 20px;
+     text-align: center;
+ }
